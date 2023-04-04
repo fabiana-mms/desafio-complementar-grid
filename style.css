@@ -1,0 +1,93 @@
+/*Este primeiro codigo esta comentado para nao dar conflito com o abaixo*/
+
+/*.container {
+   display: grid;
+   grid-template-columns: 1fr 3fr 1fr;
+   grid-template-rows: 50% 150% 50% 50%;
+   grid-template-areas: 
+      "nav cabecalho cabecalho"
+      "nav secao aside"
+      "nav secao aside"
+      "nav footer footer";
+   gap: 10px;
+   font-size: 20px;
+   text-align: center;
+   color: black;
+}
+
+.cabecalho {
+   background-color: lightcoral;
+   padding: 20px;
+   grid-area: cabecalho;
+}
+
+.navegacao {
+   background-color: aquamarine;
+   padding: 20px;
+   grid-area: nav;
+}
+
+.secao {
+   background-color: lightsalmon;
+   padding: 20px;
+   grid-area: secao;
+}
+
+.aside {
+   background-color: lightblue;
+   padding: 20px;
+   grid-area: aside;
+}
+
+.footer {
+   background-color: lightgrey;
+   padding: 20px;
+   grid-area: footer;
+}*/
+
+.container-ativ {
+   display: grid;
+   grid-template-columns: 1fr 0 1fr 0.5fr;
+   grid-template-rows: 100px 100px 100px;
+   grid-template-areas: 
+   "nav nav cabecalho cabecalho"
+   "nav nav sobre foto"
+   "links links sobre fotos";
+   gap: 10px;
+}
+
+.nav {
+   background-color: darkblue;
+   grid-area: nav;
+   border-radius: 10px;
+}
+
+.links {
+   background-color: darkmagenta;
+   grid-area: links;
+   border-radius: 10px;
+}
+
+.cabecalho {
+   background-color: darkred;
+   grid-area: cabecalho;
+   border-radius: 10px;
+}
+
+.sobre {
+   background-color: darkgreen;
+   grid-area: sobre;
+   border-radius: 10px;
+}
+
+.foto {
+   background-color: darkcyan;
+   grid-area: foto;
+   border-radius: 10px;
+}
+
+.fotos {
+   background-color: darkkhaki;
+   grid-area: fotos;
+   border-radius: 10px;
+}
